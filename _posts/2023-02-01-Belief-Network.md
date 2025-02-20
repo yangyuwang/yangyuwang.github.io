@@ -14,9 +14,10 @@ last_modified_at: 2023-02-01
 
 <p align="center">
   <img src="https://yangyuwang.netlify.app/assets/belief_network.png" alt="Belief Network in Year 2018 of Chinese" width="400">
+  <br>
+  <strong>Belief Network in Year 2018 of Chinese</strong>
 </p>
 
-Belief Network in Year 2018 of Chinese
 
 ---
 
