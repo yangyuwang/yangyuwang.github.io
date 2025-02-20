@@ -13,7 +13,6 @@ toc_icon: "cog"
 <div class="cv-content" markdown="1">
 
 ## [Curriculum Vitae](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
-
 {: .no_toc }
 
 * TOC
