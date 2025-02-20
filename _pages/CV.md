@@ -16,10 +16,10 @@ toc_icon: "cog"
 - GPA: 4.00/4.00  
 - Selected Courses: *Social Network Analysis, Python Programming, Thinking with Deep Learning for Complex Social & Cultural Data Analysis*
 
-#### Fudan University**
-**BA in Sociology (Honors)** (June 2024)  
+#### Fudan University
+**BA in Sociology (Honors)** (June 2024)
 - GPA: 3.75/4.00  
-- Selected Courses: *Sociology of Culture, Sociology of Organization (H), Internet & Sociological Research (H), Social Statistics (H), Statistical Software (H), Organizational Behavior, *Organizations and Social Institutions*, *Sexual Cultures*, *Seminar & Research in Sociology*  
+- Selected Courses: Sociology of Culture, Sociology of Organization (H), Internet & Sociological Research (H), Social Statistics (H), Statistical Software (H), Organizational Behavior, *Organizations and Social Institutions*, *Sexual Cultures*, *Seminar & Research in Sociology*
 - *Exchanged at **University of California, Berkeley**, August - December 2022 (GPA: 3.90/4.00)*  
 
 ---
