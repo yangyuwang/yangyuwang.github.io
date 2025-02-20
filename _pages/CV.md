@@ -9,6 +9,8 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
+<div class="cv-content">
+
 [View full CV](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 
 ### Education Background

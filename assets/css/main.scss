@@ -8,5 +8,10 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 body {
-    font-size: 18px; /* Adjust to your preference */
+    font-size: 20px; /* Adjust to your preference */
 }
+
+.cv-content {
+    font-size: 16px; /* Adjust size */
+}
+
