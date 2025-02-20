@@ -9,6 +9,10 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
+
+
+<div class="cv-content" markdown="1">
+
 # Curriculum Vitae
 
 {: .no_toc }
@@ -16,10 +20,7 @@ toc_icon: "cog"
 * TOC
 {:toc}
 
-<div class="cv-content" markdown="1">
-
-
-[View full CV](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
+## [View full CV](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 
 
 
