@@ -13,9 +13,9 @@ last_modified_at: 2023-02-01
 <div class="research-content" markdown="1">
 
 <p align="center">
-  <img src="https://yangyuwang.netlify.app/assets/belief_network.png" alt="Belief Network in Year 2018 of Chinese" width="400">
+  <img src="https://yangyuwang.netlify.app/assets/belief_network.png" alt="Belief Network in Year 2018 of WVS Respondents from Mainland China" width="400">
   <br>
-  <strong>Belief Network in Year 2018 of Chinese</strong>
+  <strong>Belief Network in Year 2018 of WVS Respondents from Mainland China</strong>
 </p>
 
 
