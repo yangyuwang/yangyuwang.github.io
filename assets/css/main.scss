@@ -7,10 +7,11 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
 body {
-    font-size: 20px; /* Adjust to your preference */
+    font-size: 24px; /* Adjust to your preference */
 }
 
 .page-id-CV .page-content {
-    font-size: 16px;
+    font-size: 14px;
 }
