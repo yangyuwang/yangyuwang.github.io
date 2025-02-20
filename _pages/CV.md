@@ -33,7 +33,7 @@ GPA: 3.75/4.00
 
 ## Research Experiences
 
-##### Research Assistant, Knowledge Lab (2024.09 - Present)  
+##### - Research Assistant, Knowledge Lab (2024.09 - Present)  
 **PI: James Evans**, University of Chicago  
 
 Project 1: RCD Index - Developed a restricted CD index to measure literature innovation.  
