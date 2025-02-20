@@ -1,5 +1,5 @@
 ---
-title: "Complex nexus: Economic development, rural-to-urban migration, and transition to adulthood in China"
+title: "*2024-09-02* Complex nexus: Economic development, rural-to-urban migration, and transition to adulthood in China"
 layout: single
 categories:
   - Publication
