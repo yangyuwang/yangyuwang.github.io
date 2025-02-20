@@ -4,14 +4,24 @@ title: "CV"
 layout: splash
 author_profile: true
 last_modified_at: 2022-05-27T11:59:26-04:00
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
+# Curriculum Vitae
+
+{: .no_toc }
+
+* TOC
+{:toc}
+
 <div class="cv-content" markdown="1">
 
+
 [View full CV](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
+
+
 
 ## Education Background
 
