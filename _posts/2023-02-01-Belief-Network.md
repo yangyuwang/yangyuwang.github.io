@@ -11,7 +11,7 @@ last_modified_at: 2023-02-01
 ---
 
 ---
-<div class="cv-content" markdown="1">
+<div class="research-content" markdown="1">
 
 Tian, Felicia F., Jinfeng Wu, and **Yangyu Wang**. 2023. *Journal of Social Development (Chinese)* 10(2):38-56+243.
 

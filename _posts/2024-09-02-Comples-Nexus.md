@@ -12,7 +12,7 @@ last_modified_at: 2024-09-02
 ---
 
 ---
-<div class="cv-content" markdown="1">
+<div class="research-content" markdown="1">
 
 **Wang, Yangyu**, and Felicia F. Tian. 2024. *Advances in Life Course Research* 62:100633. doi: [10.1016/j.alcr.2024.100633](https://doi.org/10.1016/j.alcr.2024.100633).
 
