@@ -7,7 +7,6 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-b
-ody {
-    font-size: 12px; /* Adjust to your preference */
+body {
+    font-size: 5px; /* Adjust to your preference */
 }
