@@ -12,7 +12,7 @@
 
 #theme                    : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Yangyu Wang"
   avatar           : "/assets/yangyu.jpg"
-  bio              : "MACSS Student at UChi<br><br>**Expertise:**<br>Sociology of Culture<br>Gender & Sexuality<br>Social Network Analysis<br>(Multimodal) Machine Learning"
+  bio              : "MACSS Student at UChi<br><br>**Research Interests:**<br>Sociology of Culture<br>Gender & Sexuality<br>Social Network Analysis<br>(Multimodal) Machine Learning"
   location         : "Chicago, IL"
   email            : 
   links:
