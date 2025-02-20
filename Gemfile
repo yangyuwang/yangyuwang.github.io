@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby "3.1.4"
 
 gem "jekyll", "~> 4.2.0"
 gem "minimal-mistakes-jekyll"
@@ -21,7 +20,6 @@ gem "ffi" # Ensure ffi is included
 # gem "github-pages", group: :jekyll_plugins
 
 # To upgrade, run `bundle update`.
-gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
