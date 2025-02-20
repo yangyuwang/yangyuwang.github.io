@@ -15,14 +15,14 @@ toc_icon: "cog"
 
 ### Education Background
 
-#### University of Chicago
+#### - University of Chicago
 **MA in Computational Social Sciences** (Expected June 2026)  
 
 GPA: 4.00/4.00  
 
 **Selected Courses**: *Social Network Analysis, Python Programming, Thinking with Deep Learning for Complex Social & Cultural Data Analysis*
 
-#### Fudan University
+#### - Fudan University
 **BA in Sociology (Honors)** (June 2024)
 
 GPA: 3.75/4.00  
@@ -35,24 +35,24 @@ GPA: 3.75/4.00
 
 ### Research Experiences
 
-#### Research Assistant, Knowledge Lab (2024.09 - Present)  
+#### - Research Assistant, Knowledge Lab (2024.09 - Present)  
 **PI: James Evans**, University of Chicago  
 
 Project 1: RCD Index - Developed a restricted CD index to measure literature innovation.  
 
 Project 2: Artist Agents - Used generative AI with WikiArt metadata to analyze art similarities.  
 
-#### Research Assistant, Organizational Behavior & Gig Worker (2023.05 - 2024.07)  
+#### - Research Assistant, Organizational Behavior & Gig Worker (2023.05 - 2024.07)  
 **PI: Dongyuan Wu**, Fudan University  
 
 Designed surveys on Qualtrics, managed datasets, and created charts for research papers.  
 
-#### Research Assistant, Righteous Among the Nations Network Analysis (2022.10 - 2023.09)  
+#### - Research Assistant, Righteous Among the Nations Network Analysis (2022.10 - 2023.09)  
 **PI: Robert Braun**, UC Berkeley  
 
 Scraped and analyzed WWII resistance networks from Yad Vashem archives.  
 
-#### Research Assistant, Elderly Social Networks in Shanghai (2021.04 - 2022.01)  
+#### - Research Assistant, Elderly Social Networks in Shanghai (2021.04 - 2022.01)  
 **PI: Felicia F. Tian**, Fudan University  
 
 Conducted structured interviews and cleaned social network data of 200+ elderly individuals.  
@@ -61,12 +61,12 @@ Conducted structured interviews and cleaned social network data of 200+ elderly 
 
 ### Teaching Experiences
 
-#### Teaching Assistant, Data Visualization (2025 Winter, University of Chicago)  
+#### - Teaching Assistant, Data Visualization (2025 Winter, University of Chicago)  
 **Lecturer: Jean Clipperton**  
 
 Held office hours, graded assignments, assisted students with final visualization projects.  
 
-#### Teaching Assistant, Social Networks and Chinese Society (2023 Spring, Fudan University)  
+#### - Teaching Assistant, Social Networks and Chinese Society (2023 Spring, Fudan University)  
 **Lecturer: Felicia F. Tian**  
 
 Facilitated discussions, graded papers, and delivered a lecture on Social Network Analysis (SNA).  
