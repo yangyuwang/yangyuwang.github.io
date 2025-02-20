@@ -9,7 +9,7 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
-<div class="cv-content" markdown="1">
+{% capture cv_content %}
 
 [View full CV](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 
@@ -69,4 +69,8 @@ Facilitated discussions, graded papers, and delivered a lecture on Social Networ
 
 Lecture Slides see [Here](https://drive.google.com/file/d/1RSJoDdz0UYaf3IG277U7pF_Izf9kyFZK/view).
 
+{% endcapture %}
+
+<div class="cv-content">
+  {{ cv_content | markdownify }}
 </div>
