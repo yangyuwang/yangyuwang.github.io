@@ -29,6 +29,6 @@ last_modified_at: 2024-09-02
 
 Abstract: Transition to adulthood in low- and middle-come countries (LMIC) has increasingly been diversified and individualized. Economic development and migration are often cited as reasons for diversification but have been analytically examined interactively. To examine the complex linkages between development, migration, and transition to adulthood, we use China data to cover a decade when it has experienced rapid economic development, a large flow of rural-to-urban migration, and changes in the transition to adulthood. Applying the latent class analysis and multinomial logistic regression on the Chinese General Social Survey 2008 and 2017, we obtain three main findings. First, economic development increases the diversification of the transition to adulthood. Second, rural-to-urban migration has a greater impact on the postponement than on other pathways. Third, the joint impact of economic development and migration is not evident: the change do not differ between men and women as well as young adults of different migration experience. These findings collectively imply signs of the diversification of transition to adulthood in China, but also entail the individualization behind it.
 
-Full Paper see [Here](https://yangyuwang.netlify.app/assets/complex_nexus.pdf)
+Full Paper see [Here](https://yangyuwang.netlify.app/assets/complex_nexus.pdf).
 
 </div>
