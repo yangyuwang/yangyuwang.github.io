@@ -18,6 +18,8 @@ toc_icon: "cog"
 * TOC
 {:toc}
 
+---
+
 ### Education Background
 
 ##### - University of Chicago
