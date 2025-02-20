@@ -1,5 +1,5 @@
 ---
-title: "*2023-02-01* Changes in the Network of Chinese Values (1990—2018)"
+title: "Changes in the Network of Chinese Values (1990—2018)<br>中国价值观念网络的变迁 (1990—2018)"
 layout: single
 categories:
   - Publication
