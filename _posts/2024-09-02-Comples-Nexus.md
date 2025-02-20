@@ -11,11 +11,12 @@ tags:
 last_modified_at: 2024-09-02
 ---
 
+---
 <div class="cv-content" markdown="1">
 
-Cite: **Wang, Yangyu**, and Felicia F. Tian. 2024. “Complex Nexus: Economic Development, Rural-to-Urban Migration, and Transition to Adulthood in China.” *Advances in Life Course Research* 62:100633. doi: [10.1016/j.alcr.2024.100633](https://doi.org/10.1016/j.alcr.2024.100633).
+**Wang, Yangyu**, and Felicia F. Tian. 2024. *Advances in Life Course Research* 62:100633. doi: [10.1016/j.alcr.2024.100633](https://doi.org/10.1016/j.alcr.2024.100633).
 
-<button onclick="copyCitation()">Click to Copy</button>
+<button onclick="copyCitation()">Click to Copy Citation</button>
 
 <script>
   function copyCitation() {

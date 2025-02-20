@@ -10,13 +10,14 @@ tags:
 last_modified_at: 2023-02-01
 ---
 
+---
 <div class="cv-content" markdown="1">
 
-Cite: Tian, Felicia F., Jinfeng Wu, and **Yangyu Wang**. 2023. “Changes in the Network of Chinese Values (1990—2018)” Journal of Social Development (Chinese) 10(2):38-56+243.
+Tian, Felicia F., Jinfeng Wu, and **Yangyu Wang**. 2023. *Journal of Social Development (Chinese)* 10(2):38-56+243.
 
-引用：田丰、 吴锦峰、 **王杨聿**. 2023. “中国价值观念网络的变迁(1990—2018).” 社会发展研究 10(2):38-56+243.
+田丰、 吴锦峰、 **王杨聿**. 2023. 《社会发展研究》10（2）:38-56+243.
 
-<button onclick="copyCitation()">Copy Citation</button>
+<button onclick="copyCitation()">Click to opy Citation</button>
 
 <script>
   function copyCitation() {
