@@ -10,12 +10,13 @@ tags:
 last_modified_at: 2023-02-01
 ---
 
+<div class="research-content" markdown="1">
+
 <img src="https://yangyuwang.netlify.app/assets/belief_network.png" alt="Belief Network in Year 2018 of Chinese" width="200">
 
 Belief Network in Year 2018 of Chinese
 
 ---
-<div class="research-content" markdown="1">
 
 Tian, Felicia F., Jinfeng Wu, and **Yangyu Wang**. 2023. *Journal of Social Development (Chinese)* 10(2):38-56+243.
 
