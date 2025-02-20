@@ -4,7 +4,7 @@ title: "CV"
 layout: splash
 author_profile: true
 last_modified_at: 2022-05-27T11:59:26-04:00
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
