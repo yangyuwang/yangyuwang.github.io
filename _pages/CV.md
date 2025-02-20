@@ -15,4 +15,4 @@ toc_icon: "cog"
 
 ## Teaching Experiences
 
-[View full CV](http://127.0.0.1:4000/assets/CV_Yangyu.pdf)
+[View full CV](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
