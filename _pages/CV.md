@@ -6,8 +6,9 @@ author_profile: true
 last_modified_at: 2022-05-27T11:59:26-04:00
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
 ---
+
+<div class="cv-content" markdown="1">
 
 [View full CV](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 
@@ -66,3 +67,5 @@ Held office hours, graded assignments, assisted students with final visualizatio
 Facilitated discussions, graded papers, and delivered a lecture on Social Network Analysis (SNA).  
 
 Lecture Slides see [Here](https://drive.google.com/file/d/1RSJoDdz0UYaf3IG277U7pF_Izf9kyFZK/view).
+
+</div>
