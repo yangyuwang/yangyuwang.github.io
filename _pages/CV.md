@@ -1,11 +1,12 @@
 ---
 permalink: /CV/
 title: "CV"
-layout: single
+layout: splash
 author_profile: true
 last_modified_at: 2022-05-27T11:59:26-04:00
-toc: true
+toc: false
 toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
 <div class="cv-content" markdown="1">
