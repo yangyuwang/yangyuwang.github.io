@@ -13,7 +13,7 @@ toc: false
 [Download the Newest Version by Click](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 {: .no_toc }
 
-## Education Background
+<span style="font-size: 1.2em; font-weight: bold; color: #12ABAB;">Education Background</span>
 
 ##### - University of Chicago
 **MA in Computational Social Sciences** (Expected June 2026)  
@@ -31,7 +31,7 @@ GPA: 3.75/4.00
 
 *Exchanged at **University of California, Berkeley**, August - December 2022 (GPA: 3.90/4.00)*  
 
-## Research Experiences
+<span style="font-size: 1.2em; font-weight: bold; color: #12ABAB;">Research Experiences</span>
 
 ##### - Research Assistant, Knowledge Lab (2024.09 - Present)  
 **PI: James Evans**, University of Chicago  
@@ -55,7 +55,7 @@ Scraped and analyzed WWII resistance networks from Yad Vashem archives.
 
 Conducted structured interviews and cleaned social network data of 200+ elderly individuals.  
 
-## Teaching Experiences
+<span style="font-size: 1.2em; font-weight: bold; color: #12ABAB;">Teaching Experiences</span>
 
 ##### - Teaching Assistant, Data Visualization (2025 Winter, University of Chicago)  
 **Lecturer: Jean Clipperton**  
