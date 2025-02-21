@@ -10,7 +10,8 @@ toc: false
 
 <div class="cv-content" markdown="1">
 
-# Curriculum vitae
+<span style="font-size: 3em; font-weight: bold; color:rgb(1, 74, 100);">Curriculum vitae</span>
+
 
 [Download](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 {: .no_toc }
