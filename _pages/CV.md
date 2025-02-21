@@ -3,13 +3,12 @@ permalink: /CV/
 title: "CV"
 layout: single
 author_profile: true
-last_modified_at: 2022-05-27T11:59:26-04:00
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
+last_modified_at: 2025-02-21T11:59:26-04:00
+toc: false
 ---
 
 
+<div class="cv-content" markdown="1">
 
 ## [Curriculum Vitae (Download the Newest Version by Click)](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 {: .no_toc }
@@ -72,3 +71,4 @@ Facilitated discussions, graded papers, and delivered a lecture on Social Networ
 
 Lecture Slides see [Here](https://drive.google.com/file/d/1RSJoDdz0UYaf3IG277U7pF_Izf9kyFZK/view).
 
+</div>
