@@ -10,10 +10,8 @@ toc: false
 
 <div class="cv-content" markdown="1">
 
-## [Curriculum Vitae (Download the Newest Version by Click)](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
+[Download the Newest Version by Click](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 {: .no_toc }
-
----
 
 ### Education Background
 

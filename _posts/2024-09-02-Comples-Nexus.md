@@ -14,7 +14,7 @@ last_modified_at: 2024-09-02
 <div class="research-content" markdown="1">
 
 <p align="center">
-  <img src="https://yangyuwang.netlify.app/assets/female_migration_transition.png" alt="Migration Effect on Transition to Adulthood for Females in China 2008 vs. 2017" width="400">
+  <img src="https://yangyuwang.netlify.app/assets/female_migration_transition.png" alt="Migration Effect on Transition to Adulthood for Females in China 2008 vs. 2017" width="600">
   <br>
   <strong>Migration Effect on Transition to Adulthood for Females in China 2008 vs. 2017</strong>
 </p>
