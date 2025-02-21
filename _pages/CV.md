@@ -1,7 +1,7 @@
 ---
 permalink: /CV/
 title: "CV"
-layout: splash
+layout: single
 author_profile: true
 last_modified_at: 2022-05-27T11:59:26-04:00
 toc: true
@@ -12,11 +12,8 @@ toc_icon: "cog"
 
 <div class="cv-content" markdown="1">
 
-## [Curriculum Vitae](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
+## [Curriculum Vitae (Download the Newest Version by Click)](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 {: .no_toc }
-
-* TOC
-{:toc}
 
 ---
 
