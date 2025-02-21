@@ -1,10 +1,10 @@
 # main links
 main:
+  - title: "Homepage"
+    url: /
   - title: "CV"
     url: /CV/
   - title: "Projects"
     url: /categories/
   - title: "GitHub"
     url: "https://github.com/yangyuwang"
-  # - title: "Sitemap"
-  #   url: /sitemap/
