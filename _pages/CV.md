@@ -16,6 +16,8 @@ toc: false
 [Download](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 {: .no_toc }
 
+---
+
 <span style="font-size: 2em; font-weight: bold; color: #12ABAB;">Education Background</span>
 
 ### - University of Chicago
@@ -33,6 +35,8 @@ GPA: 3.75/4.00
 **Selected Courses**: Sociology of Culture, Sociology of Organization (H), Internet & Sociological Research (H), Social Statistics (H), Statistical Software (H), Organizational Behavior, *Organizations and Social Institutions*, *Sexual Cultures*, *Seminar & Research in Sociology*
 
 *Exchanged at **University of California, Berkeley**, August - December 2022 (GPA: 3.90/4.00)*  
+
+---
 
 <span style="font-size: 2em; font-weight: bold; color: #12ABAB;">Research Experiences</span>
 
@@ -57,6 +61,8 @@ Scraped and analyzed WWII resistance networks from Yad Vashem archives.
 **PI: Felicia F. Tian**, Fudan University  
 
 Conducted structured interviews and cleaned social network data of 200+ elderly individuals.  
+
+---
 
 <span style="font-size: 2em; font-weight: bold; color: #12ABAB;">Teaching Experiences</span>
 
