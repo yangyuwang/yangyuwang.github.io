@@ -10,7 +10,6 @@ toc_icon: "cog"
 ---
 
 
-<div class="cv-content" markdown="1">
 
 ## [Curriculum Vitae (Download the Newest Version by Click)](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 {: .no_toc }
@@ -73,4 +72,3 @@ Facilitated discussions, graded papers, and delivered a lecture on Social Networ
 
 Lecture Slides see [Here](https://drive.google.com/file/d/1RSJoDdz0UYaf3IG277U7pF_Izf9kyFZK/view).
 
-</div>
