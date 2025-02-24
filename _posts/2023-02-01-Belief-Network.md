@@ -25,7 +25,7 @@ Tian, Felicia F., Jinfeng Wu, and **Yangyu Wang**. 2023. *Journal of Social Deve
 
 田丰、 吴锦峰、 **王杨聿**. 2023. 《社会发展研究》10（2）:38-56+243.
 
-<button onclick="copyCitation()">Click to opy Citation</button>
+<button onclick="copyCitation()">Click to Copy Citation</button>
 
 <script>
   function copyCitation() {
