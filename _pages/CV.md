@@ -1,10 +1,10 @@
 ---
 permalink: /CV/
 title: "CV"
-layout: splash
+layout: single
 author_profile: true
 last_modified_at: 2025-02-21T11:59:26-04:00
-toc: false
+toc: true
 ---
 
 
