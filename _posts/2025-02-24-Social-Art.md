@@ -1,6 +1,6 @@
 ---
 title: "Social Determinants of Artistic Styles in History"
-layout: splash
+layout: single
 categories:
   - Working Paper
   - Thesis
@@ -17,7 +17,7 @@ last_modified_at: 2025-02-24
 # Social Determinants of Artistic Styles in History
 
 <p align="center">
-  <img src="https://yangyuwang.netlify.app/assets/Impressionism & Post-Impressionism_hori_net.png" alt="Friends Network of Artists in Impressionism and Post-Impressionism" width="600">
+  <img src="https://yangyuwang.netlify.app/assets/Impressionism & Post-Impressionism_hori_net.png" alt="Friends Network of Artists in Impressionism and Post-Impressionism" width="400">
   <br>
   <strong>Friends Network of Artists in Impressionism and Post-Impressionism</strong>
 </p>
