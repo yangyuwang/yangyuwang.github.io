@@ -1,5 +1,5 @@
 ---
-title: "Social Determinants of Artistic Styles in History"
+title: "Social Determinants of Artistic Styles"
 layout: splash
 categories:
   - Working Paper
@@ -14,7 +14,7 @@ last_modified_at: 2025-02-24
 
 <div class="research-content" markdown="1">
 
-# Social Determinants of Artistic Styles in History
+# Social Determinants of Artistic Styles
 
 <p align="center">
   <img src="https://yangyuwang.netlify.app/assets/Impressionism & Post-Impressionism_hori_net.png" alt="Friends Network of Artists in Impressionism and Post-Impressionism" width="600">
@@ -25,7 +25,7 @@ last_modified_at: 2025-02-24
 
 ---
 
-This is a large project, including artist network analysis, painting style prediction, and artist agent construction (deep learning/GenAI), by utilizing the historical painting data on [WikiArt.org](https://www.wikiart.org/).
+This is a large project, including artist network analysis, painting style prediction, and artist agent construction (deep learning/GenAI), by utilizing the historical painting dataset on [WikiArt.org](https://www.wikiart.org/).
 
 For a latest version of interactive artist network analysis, it could be found below.
 
