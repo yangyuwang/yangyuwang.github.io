@@ -27,7 +27,7 @@ last_modified_at: 2025-02-24
 
 This is a large project, including artist network analysis, painting style prediction, and artist agent construction (deep learning/GenAI), by utilizing the historical painting data on [WikiArt.org](https://www.wikiart.org/).
 
-For now, a latest version of artist network analysis could be found below.
+For now, a latest version of interactive artist network analysis could be found below.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 0 auto;">
   <iframe src="https://wangyd.shinyapps.io/wikiart_network/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
