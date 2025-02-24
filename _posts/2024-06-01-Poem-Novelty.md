@@ -13,9 +13,9 @@ last_modified_at: 2024-06-01
 <div class="research-content" markdown="1">
 
 <p align="center">
-  <img src="https://yangyuwang.netlify.app/assets/network_noveltycombsize_degreecolor_nl_keyplayers.png" alt="Poets Network in Tang Dynasty with the size of Combination Novelty" width="400">
+  <img src="https://yangyuwang.netlify.app/assets/network_noveltywordsize_degreecolor_nl_keyplayers.png" alt="Poets Network in Tang Dynasty with the size of Word Usage Novelty" width="400">
   <br>
-  <strong>Poets Network in Tang Dynasty (Node Sizes Corresponding the Combination Novelty)</strong>
+  <strong>Poets Network in Tang Dynasty (Node Sizes Corresponding the Word Usage Novelty)</strong>
 </p>
 
 
