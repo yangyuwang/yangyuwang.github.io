@@ -2,6 +2,7 @@
 title: "Social Backgrounds and Artistic Styles in History"
 layout: single
 categories:
+  - Working Paper
   - Thesis
 tags:
   - Multimodal Machine Learning
