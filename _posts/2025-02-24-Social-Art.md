@@ -29,8 +29,8 @@ This is a large project, including artist network analysis, painting style predi
 
 For now, a latest version of artist network analysis could be found below.
 
-<div style="text-align: center;">
-  <iframe src="https://wangyd.shinyapps.io/wikiart_network/" width="1200" height="800" style="border:none;"></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 0 auto;">
+  <iframe src="https://wangyd.shinyapps.io/wikiart_network/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
 </div>
 
 </div>
