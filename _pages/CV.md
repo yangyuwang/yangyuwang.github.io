@@ -5,13 +5,12 @@ layout: single
 author_profile: true
 last_modified_at: 2025-02-21T11:59:26-04:00
 toc: true
+toc_label: "CV"
+toc_sticky: true
 ---
 
 
 <div class="cv-content" markdown="1">
-
-<span style="font-size: 2em; font-weight: bold; color:rgb(1, 74, 100);">Curriculum vitae</span>
-
 
 [Download](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 {: .no_toc }
