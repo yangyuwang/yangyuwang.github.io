@@ -1,5 +1,5 @@
 ---
-title: "Social Backgrounds and Artistic Styles in History"
+title: "Social Determinants of Artistic Styles in History"
 layout: single
 categories:
   - Working Paper
