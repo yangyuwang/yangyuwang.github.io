@@ -10,7 +10,7 @@ search: false
 
 
 body {
-    $font-family-base: 'Georgia', serif !important;
+    font-family: 'Georgia', serif !important;
     font-size: 20px; 
 }
 
@@ -30,10 +30,10 @@ body {
     border-radius: 0; /* Makes it a square */
 }
 
-h1.post-title {
-    font-size: 10px;
+h2 h1 a {
+    font-size: 18px;
 }
 
-h2 a {
-    font-size: 10px;
+h1,h2,h3,h4,h5,h6,legend{
+    color: #f433ff;
 }
