@@ -6,7 +6,7 @@ categories:
 tags:
   - Social Network Analysis
   - Sociology of Art
-  - Sociology of Knowledge
+  - Innovation Study
 last_modified_at: 2024-06-01
 ---
 

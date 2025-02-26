@@ -5,7 +5,7 @@ categories:
   - Publication
 tags:
   - Life Course
-  - Migration
+  - Internal Migration
   - China
   - Latent Class Analysis
 last_modified_at: 2024-09-02

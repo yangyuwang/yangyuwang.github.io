@@ -5,7 +5,6 @@ categories:
   - Publication
 tags:
   - Social Network Analysis
-  - Social Attitude
   - Social Psychology
 last_modified_at: 2023-02-01
 ---

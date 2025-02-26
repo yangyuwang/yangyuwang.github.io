@@ -6,8 +6,9 @@ categories:
   - Thesis
 tags:
   - Multimodal Machine Learning
-  - Sociology of Art
   - Social Network Analysis
+  - Sociology of Art
+  - Innovation Study
 last_modified_at: 2025-02-24
 ---
 
