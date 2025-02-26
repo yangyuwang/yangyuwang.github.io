@@ -8,7 +8,6 @@ tags:
   - Multimodal Machine Learning
   - Sociology of Art
   - Social Network Analysis
-  - Social Network Analysis
 last_modified_at: 2025-02-24
 ---
 
