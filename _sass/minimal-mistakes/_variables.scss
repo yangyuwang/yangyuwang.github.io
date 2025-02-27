@@ -16,11 +16,11 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Garamond, serif;
-$sans-serif: Garamond, serif;
-$monospace: Garamond, serif; 
-$sans-serif-narrow: Garamond, serif;
-$helvetica: Garamond, serif;
+$serif: "Bodoni MT", serif;
+$sans-serif: "Bodoni MT", serif;
+$monospace: "Bodoni MT", serif; 
+$sans-serif-narrow: "Bodoni MT", serif;
+$helvetica: "Bodoni MT", serif;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
