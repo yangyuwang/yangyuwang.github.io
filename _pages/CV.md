@@ -9,7 +9,7 @@ toc_label: "CV"
 toc_sticky: true
 ---
 
-<iframe src="https://drive.google.com/file/d/1z2PaSuXFjzuwBqiGBBbn7-3gaTrExcLY/preview" width="100%" height="600px" frameborder="0"></iframe>
-
 [Download](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
-{: .no_toc }
+
+<iframe src="https://drive.google.com/file/d/1z2PaSuXFjzuwBqiGBBbn7-3gaTrExcLY/preview" width="100%" height="800px" frameborder="0"></iframe>
+
