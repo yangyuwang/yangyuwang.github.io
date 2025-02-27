@@ -12,7 +12,9 @@ toc_sticky: true
 
 <div class="cv-content" markdown="1">
 
-<iframe src="http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf" width="100%" height="600px"> This browser does not support PDFs. Please download the PDF to view it: <a href="http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf">Download PDF</a>. </iframe>
+<iframe src="https://drive.google.com/file/d/1z2PaSuXFjzuwBqiGBBbn7-3gaTrExcLY/view?usp=sharing" width="100%" height="600px"> 
+
+ <a href="http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf">Download PDF</a>. </iframe>
 
 [Download](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 {: .no_toc }
