@@ -16,11 +16,11 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: "Bodoni MT", serif;
-$sans-serif: "Bodoni MT", serif;
-$monospace: "Bodoni MT", serif; 
-$sans-serif-narrow: "Bodoni MT", serif;
-$helvetica: "Bodoni MT", serif;
+$serif: Helvetica, "Helvetica Neue", Arial, sans-serif ;
+$sans-serif: Helvetica, "Helvetica Neue", Arial, sans-serif ;
+$monospace: Helvetica, "Helvetica Neue", Arial, sans-serif ; 
+$sans-serif-narrow: Helvetica, "Helvetica Neue", Arial, sans-serif ;
+$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif ;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
