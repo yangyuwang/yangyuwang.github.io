@@ -13,7 +13,7 @@ toc_sticky: true
 <div class="cv-content" markdown="1">
 
 
-<object data="http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf" type="application/pdf" width="100%" height="600px"> <p>Your browser does not support PDFs. Please download the PDF to view it: <a href="http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf">Download PDF</a>.</p> </object>
+<object data="/assets/CV_Yangyu.pdf" type="application/pdf" width="100%" height="600px"> <p>Your browser does not support PDFs. Please download the PDF to view it: <a href="/assets/CV_Yangyu.pdf">Download PDF</a>.</p> </object>
 
 [Download](http://yangyuwang.netlify.app/assets/CV_Yangyu.pdf)
 {: .no_toc }
