@@ -3,7 +3,7 @@ permalink: /CV/
 title: "CV"
 layout: single
 author_profile: true
-last_modified_at: 2025-02-27T11:59:26-04:00
+last_modified_at: 2025-11-03
 toc: false
 toc_label: "CV"
 toc_sticky: true
