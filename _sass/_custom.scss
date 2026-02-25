@@ -1,3 +1,29 @@
 
 $font-family-base: 'Georgia', serif;
 
+// Introduction section styling
+.intro-section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-section {
+    padding: 1.5rem;
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
