@@ -1,5 +1,5 @@
 ---
-title: "Simulated Art World: Artist Simulation Based on Generative Models<br>“模拟艺术界”：基于生成式人工智能的艺术家智能体仿真模拟"
+title: “Simulated Art World: Artist Simulation Based on Generative Models”
 layout: single
 categories:
   - Publication
