@@ -1,5 +1,5 @@
 ---
-title: “Social Network and Poetry Novelty of Poets in Tang Dynasty”
+title: "Social Network and Poetry Novelty of Poets in Tang Dynasty"
 layout: single
 categories:
   - Thesis

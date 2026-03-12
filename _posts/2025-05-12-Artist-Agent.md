@@ -1,5 +1,5 @@
 ---
-title: “Simulated Art World: Artist Simulation Based on Generative Models”
+title: "Simulated Art World: Artist Simulation Based on Generative Models"
 layout: single
 categories:
   - Publication
