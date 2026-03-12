@@ -13,8 +13,25 @@ layout: archive
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
+
+<!-- Category A: Cultural Innovation and Evolution -->
+<h4 style="margin-top: 2em; margin-bottom: 1em; color: #494e52; font-weight: bold;">A. Cultural Innovation and Evolution</h4>
 <div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html entries=posts type=entries_layout %}
+  {% for post in posts %}
+    {% if post.title contains "Poetry Novelty" or post.title contains "Simulated Art World" or post.title contains "Gender Disparities in Paintings" or post.title contains "National" %}
+      {% include archive-single.html type=entries_layout %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Category B: Belief and Attitude Updates -->
+<h4 style="margin-top: 2em; margin-bottom: 1em; color: #494e52; font-weight: bold;">B. Belief and Attitude Updates</h4>
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% if post.title contains "Values" or post.title contains "Complex nexus" %}
+      {% include archive-single.html type=entries_layout %}
+    {% endif %}
+  {% endfor %}
 </div>
 
 {% include paginator.html %}
