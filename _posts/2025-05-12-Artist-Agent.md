@@ -5,7 +5,8 @@ categories:
   - Publication
 tags:
   - Large Language Model
-  - Generative Adversarial Net
+  - Generative Adversarial Nets
+  - Computer Vision
   - Agent-based Modeling
   - Sociology of Art
 last_modified_at: 2025-11-03
