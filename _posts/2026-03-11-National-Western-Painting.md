@@ -1,13 +1,10 @@
 ---
-title: "Why "National" and "Western" Painting Categories Endured in Japan but Dissolved in China?"
+title: "Why “National” and “Western” Painting Categories Endured in Japan but Dissolved in China?"
 layout: single
 categories:
-  - Thesis
+  - Ongoing Project
 tags:
   - Sociology of Art
-  - Cultural Categories
-  - Japan
-  - China
   - Comparative Historical Analysis
 last_modified_at: 2026-03-11
 ---
