@@ -4,14 +4,14 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Projects" }}</h3>
+<h3 class="archive__subtitle">Projects</h3>
 
 {% assign posts = site.posts %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 
 <!-- Category A: Cultural Innovation and Evolution -->
-<h4 style="margin-top: 2em; margin-bottom: 1em; color: #494e52; font-weight: bold;font-size: 24px;">A. Cultural Innovation and Evolution</h4>
+<h4 style="margin-top: 2em; margin-bottom: 1em; color: #494e52; font-weight: bold;font-size: 32px;">A. Cultural Innovation and Evolution</h4>
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     {% if post.title contains "Poetry Novelty" or post.title contains "Simulated Art World" or post.title contains "Gender Disparities in Paintings" or post.title contains "National" %}
@@ -21,7 +21,7 @@ layout: archive
 </div>
 
 <!-- Category B: Belief and Attitude Updates -->
-<h4 style="margin-top: 2em; margin-bottom: 1em; color: #494e52; font-weight: bold;font-size: 24px;">B. Belief and Attitude Updates</h4>
+<h4 style="margin-top: 2em; margin-bottom: 1em; color: #494e52; font-weight: bold;font-size: 32px;">B. Belief and Attitude Updates</h4>
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     {% if post.title contains "Values" or post.title contains "Complex nexus" %}
