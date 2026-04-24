@@ -525,6 +525,16 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   line-height: 1.7;
 }
 .timeline-text em { font-style: italic; color: var(--v-600); }
+.timeline-text a.timeline-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgb(var(--p-rgb) / 0.35);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s;
+}
+.timeline-text a.timeline-link:hover {
+  text-decoration-color: rgb(var(--p-rgb) / 0.9);
+}
 
 
 /* ===== PAGE HEADER (Projects, CV) ===== */
