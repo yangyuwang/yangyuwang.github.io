@@ -1,21 +1,21 @@
 /* ===================================================================
    YANGYU WANG — Personal Site Styles
-   Color system: Pink + White, text in near-black
+   Color system: Light Green + White, text in near-black
    =================================================================== */
 
 /* ===== VARIABLES ===== */
 :root {
-  --v-950: #500724;
-  --v-900: #831843;
-  --v-800: #9d174d;
-  --v-700: #be185d;
-  --v-600: #db2777;
-  --v-500: #ec4899;
-  --v-400: #f472b6;
-  --v-300: #f9a8d4;
-  --v-200: #fbcfe8;
-  --v-100: #fce7f3;
-  --v-50:  #fdf2f8;
+  --v-950: #052e16;
+  --v-900: #14532d;
+  --v-800: #166534;
+  --v-700: #15803d;
+  --v-600: #16a34a;
+  --v-500: #22c55e;
+  --v-400: #4ade80;
+  --v-300: #86efac;
+  --v-200: #bbf7d0;
+  --v-100: #dcfce7;
+  --v-50:  #f0fdf4;
 
   --gray-900: #111827;
   --gray-800: #1f2937;
@@ -34,10 +34,10 @@
 
   --nav-height: 64px;
 
-  --shadow-sm:     0 1px 3px rgba(190, 24, 93, 0.07), 0 1px 2px rgba(0,0,0,0.04);
-  --shadow-md:     0 4px 16px rgba(190, 24, 93, 0.10), 0 2px 6px rgba(0,0,0,0.05);
-  --shadow-lg:     0 10px 32px rgba(190, 24, 93, 0.14), 0 4px 12px rgba(0,0,0,0.06);
-  --shadow-violet: 0 8px 28px rgba(219, 39, 119, 0.35);
+  --shadow-sm:     0 1px 3px rgba(21, 128, 61, 0.07), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md:     0 4px 16px rgba(21, 128, 61, 0.10), 0 2px 6px rgba(0,0,0,0.05);
+  --shadow-lg:     0 10px 32px rgba(21, 128, 61, 0.14), 0 4px 12px rgba(0,0,0,0.06);
+  --shadow-violet: 0 8px 28px rgba(22, 163, 74, 0.35);
 
   --radius-sm: 8px;
   --radius-md: 14px;
@@ -71,7 +71,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(249, 168, 212, 0.3);
+  border-bottom: 1px solid rgba(134, 239, 172, 0.3);
   transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .navbar.scrolled {
@@ -155,8 +155,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   display: flex;
   align-items: center;
   background:
-    radial-gradient(ellipse 60% 70% at 80% 40%, rgba(249, 168, 212, 0.28) 0%, transparent 65%),
-    radial-gradient(ellipse 40% 50% at 20% 80%, rgba(252, 231, 243, 0.2) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 70% at 80% 40%, rgba(134, 239, 172, 0.28) 0%, transparent 65%),
+    radial-gradient(ellipse 40% 50% at 20% 80%, rgba(220, 252, 231, 0.2) 0%, transparent 60%),
     var(--white);
   padding: 40px 28px 80px;
   position: relative;
@@ -169,7 +169,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(244, 114, 182, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(74, 222, 128, 0.08) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -546,7 +546,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   background: var(--v-700);
   border-color: var(--v-700);
   color: var(--white);
-  box-shadow: 0 3px 10px rgba(190, 24, 93, 0.3);
+  box-shadow: 0 3px 10px rgba(21, 128, 61, 0.3);
 }
 
 
@@ -843,7 +843,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1px solid rgba(249, 168, 212, 0.2);
+  border: 1px solid rgba(134, 239, 172, 0.2);
   transition: color 0.2s, border-color 0.2s, transform 0.2s, background 0.2s;
 }
 .footer-icon:hover {
