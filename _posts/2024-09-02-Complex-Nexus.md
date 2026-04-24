@@ -8,6 +8,7 @@ tags:
   - Internal Migration
   - China
   - Latent Class Analysis
+thumbnail: /assets/female_migration_transition.png
 last_modified_at: 2024-09-02
 ---
 

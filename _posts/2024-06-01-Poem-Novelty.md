@@ -7,6 +7,7 @@ tags:
   - Social Network Analysis
   - Sociology of Art
   - Innovation Study
+thumbnail: /assets/network_noveltywordsize_degreecolor_nl_keyplayers.png
 last_modified_at: 2024-06-01
 ---
 

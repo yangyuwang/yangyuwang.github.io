@@ -1,36 +1,101 @@
----
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
-<!doctype html>
-{% include copyright.html %}
-<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/belief_network.png' | relative_url }}">
+</head>
+<body>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached masthead.html %}
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="nav-brand">Yangyu Wang</a>
 
-    <div class="initial-content">
-      {{ content }}
-      {% include after-content.html %}
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="{{ '/' | relative_url }}" class="nav-link{% if page.url == '/' %} active{% endif %}">Home</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}" class="nav-link{% if page.url contains '/projects' %} active{% endif %}">Projects</a></li>
+        <li><a href="{{ '/CV/' | relative_url }}" class="nav-link{% if page.url contains '/CV' %} active{% endif %}">CV</a></li>
+        <li><a href="https://github.com/yangyuwang" class="nav-link" target="_blank" rel="noopener">
+          <i class="fab fa-github" aria-hidden="true"></i>&nbsp;GitHub
+        </a></li>
+      </ul>
     </div>
+  </nav>
 
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
-      </div>
-    {% endif %}
+  <main>{{ content }}</main>
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
+  <footer class="footer">
+    <div class="footer-name">Yangyu Wang</div>
+    <div class="footer-affil">MACSS &middot; University of Chicago &middot; Chicago, IL</div>
+    <div class="footer-icons">
+      <a href="mailto:wangyd@uchicago.edu" class="footer-icon" title="Email" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/yangyuwang" class="footer-icon" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=ZEc-6roAAAAJ" class="footer-icon" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+      <a href="https://orcid.org/0009-0008-9541-2265" class="footer-icon" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
     </div>
+    <nav class="footer-nav" aria-label="Footer links">
+      <a href="{{ '/' | relative_url }}" class="footer-nav-link">Home</a>
+      <a href="{{ '/projects/' | relative_url }}" class="footer-nav-link">Projects</a>
+      <a href="{{ '/CV/' | relative_url }}" class="footer-nav-link">CV</a>
+    </nav>
+    <div class="footer-copy">&copy; {{ 'now' | date: "%Y" }} Yangyu Wang</div>
+  </footer>
 
-    {% include scripts.html %}
-  </body>
+  <script>
+    // Navbar scroll shadow
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // Mobile menu toggle
+    const toggle = document.getElementById('navToggle');
+    const links  = document.getElementById('navLinks');
+    if (toggle && links) {
+      toggle.addEventListener('click', () => {
+        const open = links.classList.toggle('open');
+        toggle.classList.toggle('open', open);
+        toggle.setAttribute('aria-expanded', String(open));
+      });
+      links.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          links.classList.remove('open');
+          toggle.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    // Scroll-triggered timeline reveal
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.15 });
+      document.querySelectorAll('.timeline-item').forEach(el => io.observe(el));
+    } else {
+      document.querySelectorAll('.timeline-item').forEach(el => el.classList.add('visible'));
+    }
+  </script>
+
+</body>
 </html>

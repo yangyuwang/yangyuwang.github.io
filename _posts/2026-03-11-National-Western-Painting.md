@@ -6,6 +6,7 @@ categories:
 tags:
   - Sociology of Art
   - Comparative Historical Analysis
+thumbnail: /assets/japanese_painting_classroom.png
 last_modified_at: 2026-03-11
 ---
 

@@ -1,33 +1,89 @@
 ---
-layout: archive
+layout: default
 ---
 
-{{ content }}
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-container">
 
-<h3 class="archive__subtitle">Projects</h3>
+    <div class="hero-text">
+      <p class="hero-greeting">Welcome</p>
+      <h1 class="hero-name">Yangyu Wang</h1>
+      <p class="hero-subtitle">MACSS Student &middot; University of Chicago</p>
+      <p class="hero-bio">
+        I study how culture, knowledge, and social structure co-evolve.
+        My work sits at the intersection of <strong>Sociology of Culture</strong>,
+        <strong>Social Network Analysis</strong>, and
+        <strong>Computational Methods</strong> — from belief networks in historical China
+        to AI-simulated art worlds.
+      </p>
 
-{% assign posts = site.posts %}
+      <div class="interests">
+        <span class="interest-tag">Sociology of Culture</span>
+        <span class="interest-tag">Gender &amp; Sexuality</span>
+        <span class="interest-tag">Social Network Analysis</span>
+        <span class="interest-tag">Machine Learning</span>
+        <span class="interest-tag">Computer Vision</span>
+      </div>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
+      <div class="cta-lines">
 
-<!-- Category A: Cultural Innovation and Evolution -->
-<h4 style="margin-top: 2em; margin-bottom: 1em; color: #494e52; font-weight: bold;font-size: 24px;">A. Cultural Innovation and Evolution</h4>
-<p style="margin-bottom: 1.5em; color: #555; line-height: 1.6; font-size: 20px;">These projects of mine examine how material cultural artifacts evolve through social processes. Using computational and historical methods, I traced innovation, interaction, and labeling mechanisms across historical periods and social contexts, ranging from the high Renaissance period to the East Asian society before WWII.</p>
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% if post.title contains "Poetry Novelty" or post.title contains "Simulated Art World" or post.title contains "Gender Disparities in Paintings" or post.title contains "National" %}
-      {% include archive-single.html type=entries_layout %}
-    {% endif %}
-  {% endfor %}
-</div>
+        <div class="cta-line">
+          <span class="cta-label">See my projects</span>
+          <span class="cta-rule"></span>
+          <a href="{{ '/projects/' | relative_url }}" class="cta-btn cta-btn-primary">
+            Projects <span class="btn-arrow">&rarr;</span>
+          </a>
+        </div>
 
-<!-- Category B: Belief and Attitude Updates -->
-<h4 style="margin-top: 2em; margin-bottom: 1em; color: #494e52; font-weight: bold;font-size: 24px;">B. Belief and Attitude Updates</h4>
-<p style="margin-bottom: 1.5em; color: #555; line-height: 1.6; font-size: 20px;">These projects of mine map how cognitive structures and internalized beliefs transform under rapid social change. With mathematical methods using Survey data, I examined both the belief networks and life course patterns of Chinese public.</p>
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% if post.title contains "Values" or post.title contains "Complex nexus" %}
-      {% include archive-single.html type=entries_layout %}
-    {% endif %}
-  {% endfor %}
-</div>
+        <div class="cta-line">
+          <span class="cta-label">Read my CV</span>
+          <span class="cta-rule"></span>
+          <a href="{{ '/CV/' | relative_url }}" class="cta-btn cta-btn-outline">
+            View CV <span class="btn-arrow">&rarr;</span>
+          </a>
+        </div>
+
+        <div class="cta-line">
+          <span class="cta-label">Visit my GitHub</span>
+          <span class="cta-rule"></span>
+          <a href="https://github.com/yangyuwang" class="cta-btn cta-btn-outline" target="_blank" rel="noopener">
+            GitHub <span class="btn-arrow">&nearr;</span>
+          </a>
+        </div>
+
+      </div><!-- /cta-lines -->
+    </div><!-- /hero-text -->
+
+    <div class="hero-photo-col">
+      <div class="hero-photo-ring">
+        <img src="{{ '/assets/yangyu.jpg' | relative_url }}" alt="Yangyu Wang" width="300" height="300">
+      </div>
+    </div>
+
+  </div><!-- /hero-container -->
+</section>
+
+
+<!-- ===== NEWS & UPDATES ===== -->
+<section class="news-section">
+  <div class="news-container">
+    <p class="section-eyebrow">Latest</p>
+    <h2 class="section-title">News &amp; Updates</h2>
+
+    <div class="timeline">
+      {% for item in site.data.news %}
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-date">
+            {{ item.date | date: "%b %Y" }}
+          </div>
+          <div class="timeline-text">{{ item.content }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

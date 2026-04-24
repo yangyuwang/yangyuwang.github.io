@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+<!-- Page header -->
+<div class="page-hero">
+  <h1 class="page-hero-title">Projects</h1>
+  <p class="page-hero-sub">Research across culture, networks, and computational methods</p>
+</div>
+
+<!-- Filter bar -->
+<div class="filter-bar">
+  <div class="filter-pills" id="filterPills">
+    <button class="filter-pill active" data-filter="all">All</button>
+    <button class="filter-pill" data-filter="publication">Publications</button>
+    <button class="filter-pill" data-filter="thesis">Thesis</button>
+    <button class="filter-pill" data-filter="ongoing-project">Ongoing Projects</button>
+  </div>
+</div>
+
+<!-- Projects grid -->
+<section class="projects-section">
+  <div class="projects-grid" id="projectsGrid">
+
+    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
+
+    {% assign cat_slug = post.categories.first | downcase | replace: ' ', '-' %}
+    <a href="{{ post.url | relative_url }}" class="project-card" data-category="{{ cat_slug }}">
+
+      <div class="project-card-img-wrap">
+        {% if post.thumbnail %}
+        <img class="project-card-img" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy">
+        {% else %}
+        <div class="project-card-img" style="background: var(--v-100); display:flex; align-items:center; justify-content:center;">
+          <i class="fas fa-file-alt" style="font-size:2.5rem; color:var(--v-300);"></i>
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="project-card-body">
+        <div class="project-card-meta">
+          <span class="project-badge badge-{{ cat_slug }}">{{ post.categories.first }}</span>
+          <span class="project-card-date">{{ post.date | date: "%Y" }}</span>
+        </div>
+        <h3 class="project-card-title">{{ post.title }}</h3>
+        <p class="project-card-abstract">{{ post.content | strip_html | truncatewords: 40 }}</p>
+      </div>
+
+      <div class="project-card-footer">
+        Read more <span class="footer-arrow">&rarr;</span>
+      </div>
+
+    </a>
+    {% endfor %}
+
+    <div class="no-results" id="noResults">No projects found for this filter.</div>
+
+  </div>
+</section>
+
+<script>
+  (function () {
+    const pills = document.querySelectorAll('.filter-pill');
+    const cards = document.querySelectorAll('.project-card');
+    const noResults = document.getElementById('noResults');
+
+    function updateFilter(filter) {
+      let visible = 0;
+      cards.forEach(card => {
+        const match = filter === 'all' || card.dataset.category === filter;
+        card.classList.toggle('hidden', !match);
+        if (match) visible++;
+      });
+      noResults.classList.toggle('visible', visible === 0);
+    }
+
+    pills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        pills.forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        updateFilter(pill.dataset.filter);
+      });
+    });
+  })();
+</script>

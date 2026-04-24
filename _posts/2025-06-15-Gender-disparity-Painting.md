@@ -8,6 +8,7 @@ tags:
   - Gender
   - Computer Vision
   - Facial Recognition
+thumbnail: /assets/GenderCoefTrend.png
 last_modified_at: 2025-06-15
 ---
 

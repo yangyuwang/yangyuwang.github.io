@@ -6,6 +6,7 @@ categories:
 tags:
   - Social Network Analysis
   - Social Psychology
+thumbnail: /assets/belief_network.png
 last_modified_at: 2023-02-02
 ---
 

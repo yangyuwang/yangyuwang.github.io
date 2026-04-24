@@ -9,6 +9,7 @@ tags:
   - Computer Vision
   - Agent-based Modeling
   - Sociology of Art
+thumbnail: /assets/artist_agent_simulation.png
 last_modified_at: 2025-11-03
 ---
 
