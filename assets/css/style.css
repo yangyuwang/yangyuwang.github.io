@@ -1,10 +1,11 @@
 /* ===================================================================
    YANGYU WANG — Personal Site Styles
-   Color system: Light Green + White, text in near-black
+   Color system: Soft pastel, chosen randomly per visitor
    =================================================================== */
 
 /* ===== VARIABLES ===== */
 :root {
+  /* Palette 1 – Sage Green (default) */
   --v-950: #1a2e22;
   --v-900: #2a4a35;
   --v-800: #3a6648;
@@ -16,6 +17,7 @@
   --v-200: #d9f0df;
   --v-100: #ecf8ef;
   --v-50:  #f6fcf7;
+  --p-rgb: 77 132 94;
 
   --gray-900: #111827;
   --gray-800: #1f2937;
@@ -34,15 +36,66 @@
 
   --nav-height: 64px;
 
-  --shadow-sm:     0 1px 3px rgba(77, 132, 94, 0.07), 0 1px 2px rgba(0,0,0,0.04);
-  --shadow-md:     0 4px 16px rgba(77, 132, 94, 0.10), 0 2px 6px rgba(0,0,0,0.05);
-  --shadow-lg:     0 10px 32px rgba(77, 132, 94, 0.14), 0 4px 12px rgba(0,0,0,0.06);
-  --shadow-violet: 0 8px 28px rgba(97, 163, 117, 0.35);
+  --shadow-sm:     0 1px 3px rgb(var(--p-rgb) / 0.07), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md:     0 4px 16px rgb(var(--p-rgb) / 0.10), 0 2px 6px rgba(0,0,0,0.05);
+  --shadow-lg:     0 10px 32px rgb(var(--p-rgb) / 0.14), 0 4px 12px rgba(0,0,0,0.06);
+  --shadow-violet: 0 8px 28px rgb(var(--p-rgb) / 0.35);
 
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-full: 9999px;
+}
+
+/* ===== PALETTES ===== */
+/* 2 – Blush Rose */
+[data-palette="2"] {
+  --v-950: #2e1a1f; --v-900: #4a2830; --v-800: #663842; --v-700: #845863;
+  --v-600: #a37280; --v-500: #bf8f9a; --v-400: #d3adb6; --v-300: #e5cdd2;
+  --v-200: #f0dade; --v-100: #f8eef0; --v-50:  #fcf6f7;
+  --p-rgb: 132 88 99;
+}
+/* 3 – Powder Blue */
+[data-palette="3"] {
+  --v-950: #1a1e2e; --v-900: #283048; --v-800: #384866; --v-700: #4e6284;
+  --v-600: #6880a3; --v-500: #859bbf; --v-400: #a5b8d3; --v-300: #c5d2e5;
+  --v-200: #dae3f0; --v-100: #ecf1f8; --v-50:  #f6f8fc;
+  --p-rgb: 78 98 132;
+}
+/* 4 – Soft Lavender */
+[data-palette="4"] {
+  --v-950: #1e1a2e; --v-900: #302a4a; --v-800: #463e66; --v-700: #5e5484;
+  --v-600: #786ca3; --v-500: #9288bf; --v-400: #ada8d3; --v-300: #c8c5e5;
+  --v-200: #dddaf0; --v-100: #eeedf8; --v-50:  #f8f7fc;
+  --p-rgb: 94 84 132;
+}
+/* 5 – Pale Peach */
+[data-palette="5"] {
+  --v-950: #2e1e14; --v-900: #4a3020; --v-800: #66442e; --v-700: #845a3e;
+  --v-600: #a37254; --v-500: #bf8e6e; --v-400: #d3ae92; --v-300: #e5cebc;
+  --v-200: #f0e2d6; --v-100: #f8f0ea; --v-50:  #fcf8f5;
+  --p-rgb: 132 90 62;
+}
+/* 6 – Pale Teal */
+[data-palette="6"] {
+  --v-950: #1a2d2b; --v-900: #284845; --v-800: #386460; --v-700: #4d827e;
+  --v-600: #62a09c; --v-500: #7ebcb8; --v-400: #9dd0cc; --v-300: #bee3e1;
+  --v-200: #d9eeec; --v-100: #ecf7f6; --v-50:  #f6fbfb;
+  --p-rgb: 77 130 126;
+}
+/* 7 – Warm Cream */
+[data-palette="7"] {
+  --v-950: #28260e; --v-900: #403e16; --v-800: #5a5820; --v-700: #76742e;
+  --v-600: #949240; --v-500: #b0ae5a; --v-400: #cac878; --v-300: #dede9e;
+  --v-200: #ebebc4; --v-100: #f4f4de; --v-50:  #fafaee;
+  --p-rgb: 118 116 46;
+}
+/* 8 – Pale Mauve */
+[data-palette="8"] {
+  --v-950: #2a1a26; --v-900: #42283e; --v-800: #5e3858; --v-700: #7c4e74;
+  --v-600: #9a6490; --v-500: #b680aa; --v-400: #cca0c4; --v-300: #dfc0da;
+  --v-200: #eed8eb; --v-100: #f6ecf5; --v-50:  #fbf6fa;
+  --p-rgb: 124 78 116;
 }
 
 /* ===== RESET ===== */
@@ -71,7 +124,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(190, 229, 199, 0.3);
+  border-bottom: 1px solid color-mix(in srgb, var(--v-300) 30%, transparent);
   transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .navbar.scrolled {
@@ -155,8 +208,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   display: flex;
   align-items: center;
   background:
-    radial-gradient(ellipse 60% 70% at 80% 40%, rgba(190, 229, 199, 0.28) 0%, transparent 65%),
-    radial-gradient(ellipse 40% 50% at 20% 80%, rgba(236, 248, 239, 0.2) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 70% at 80% 40%, color-mix(in srgb, var(--v-300) 28%, transparent) 0%, transparent 65%),
+    radial-gradient(ellipse 40% 50% at 20% 80%, color-mix(in srgb, var(--v-100) 20%, transparent) 0%, transparent 60%),
     var(--white);
   padding: 40px 28px 80px;
   position: relative;
@@ -169,7 +222,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(157, 211, 172, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, color-mix(in srgb, var(--v-400) 8%, transparent) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -546,7 +599,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   background: var(--v-700);
   border-color: var(--v-700);
   color: var(--white);
-  box-shadow: 0 3px 10px rgba(77, 132, 94, 0.3);
+  box-shadow: 0 3px 10px rgb(var(--p-rgb) / 0.3);
 }
 
 
@@ -843,7 +896,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1px solid rgba(190, 229, 199, 0.2);
+  border: 1px solid color-mix(in srgb, var(--v-300) 20%, transparent);
   transition: color 0.2s, border-color 0.2s, transform 0.2s, background 0.2s;
 }
 .footer-icon:hover {

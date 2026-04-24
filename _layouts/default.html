@@ -62,6 +62,18 @@
   </footer>
 
   <script>
+    // Pick a random palette (1–8) once per visitor and persist it
+    (function () {
+      var stored = localStorage.getItem('palette');
+      if (!stored) {
+        stored = String(Math.floor(Math.random() * 8) + 1);
+        localStorage.setItem('palette', stored);
+      }
+      if (stored !== '1') document.documentElement.setAttribute('data-palette', stored);
+    })();
+  </script>
+
+  <script>
     // Navbar scroll shadow
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
