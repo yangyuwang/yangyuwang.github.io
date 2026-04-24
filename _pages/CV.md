@@ -6,7 +6,6 @@ permalink: /CV/
 
 <div class="page-hero">
   <h1 class="page-hero-title">Curriculum Vitae</h1>
-  <p class="page-hero-sub">Yangyu Wang &mdash; MACSS, University of Chicago</p>
 </div>
 
 <div class="cv-wrap">
