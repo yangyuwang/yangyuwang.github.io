@@ -906,7 +906,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .hero-photo-ring { width: 220px; height: 220px; }
   .projects-grid { grid-template-columns: 1fr; }
   .page-hero { padding: 56px 20px 44px; }
-  .post-wrap { padding: 40px 20px 72px; }
+  .post-wrap { padding: 20px 20px 72px; }
   .nav-links {
     display: none;
     position: fixed;
