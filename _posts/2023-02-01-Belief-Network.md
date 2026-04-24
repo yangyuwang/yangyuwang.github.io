@@ -6,7 +6,7 @@ categories:
 tags:
   - Social Network Analysis
   - Social Psychology
-last_modified_at: 2023-02-01
+last_modified_at: 2023-02-02
 ---
 
 <div class="research-content" markdown="1">
