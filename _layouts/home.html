@@ -111,7 +111,7 @@ layout: default
             {% if post.journal %}
               New publication in <em>{{ post.journal }}</em>:
             {% elsif post.conference %}
-              New publication at <em>{{ post.conference }}</em>{% if post.location %}, {{ post.location }}{% endif %}:
+              New {{ post.conference_type | default: "publication" }} at <em>{{ post.conference }}</em>{% if post.location %}, {{ post.location }}{% endif %}:
             {% endif %}
             {% if post.publication_url %}
               <a href="{{ post.publication_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
