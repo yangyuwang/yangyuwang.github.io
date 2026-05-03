@@ -5,7 +5,7 @@ permalink: /phd-advice/
 ---
 
 <div class="page-hero">
-  <h1 class="page-hero-title">PhD Advice</h1>
+  <h1 class="page-hero-title">PhD Application Advice</h1>
   <p class="page-hero-sub">For Social Science PhD Applicants · 为社科 PhD 申请者</p>
 </div>
 

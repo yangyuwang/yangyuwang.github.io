@@ -3,7 +3,7 @@ title: "Social Science PhD Application Guide for Selecting School 1 | Major & Re
 title_en: "社科 PhD 选校经验分享 1 ｜ 专业/地区篇"
 description: "专业与地区选择是选校大方向的核心。从 gatekeeping、方法论到个人偏好，系统梳理了选择逻辑。"
 description_en: "Major and region are the big-picture decisions in PhD applications. This will walk through the logic from gatekeeping and methodology to personal preference."
-rednote_url: "https://www.xiaohongshu.com/explore/69e45fea000000001a020019?app_platform=ios&app_version=9.28.1&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBkiVz8Q7ufuha1enJo3b8OmuekmIqkiwIvqW3EQSu59Y=&author_share=1&xhsshare=WeixinSession&shareRedId=ODZHRkg4OkA2NzUyOTgwNjY0OThKOkw5&apptime=1777833276&share_id=7fcb469e1a9d4cc7ac0665c78a112340&wechatWid=2a38a4eb4cfb1eabf035f39c0d4bf93a&wechatOrigin=menu"
+rednote_url: "http://xhslink.com/o/5lQKCeURFxL"
 order: 1
 ---
 
