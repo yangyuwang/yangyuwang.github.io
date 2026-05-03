@@ -9,7 +9,7 @@ tags:
   - Computer Vision
   - Facial Recognition
 thumbnail: /assets/GenderCoefTrend.png
-last_modified_at: 2026-04-15
+last_modified_at: 2026-08-08
 news: true
 conference: "American Sociological Association 2026 Annual Meeting"                                            
 location: "New York City, USA"
