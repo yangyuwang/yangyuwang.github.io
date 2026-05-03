@@ -1,9 +1,9 @@
 ---
-title: "Social Science PhD Application Guide for Selecting School 1 | School & Advisor"
-title_en: "社科 PhD 选校经验分享 1 ｜学校/导师篇"
+title: "Social Science PhD Application Guide for Selecting School 2 | School & Advisor"
+title_en: "社科 PhD 选校经验分享 2 ｜学校/导师篇"
 description: "确定大方向后，如何从导师出发筛选学校、评估项目质量、判断套磁必要性，以及如何看待保底校与彩票校。"
 description_en: "After fixing the big picture, how to screen schools via advisors, assess program quality, decide whether to cold email, and rethink the safety/reach school framing."
-rednote_url: "https://www.xiaohongshu.com/explore/69f6eca5000000003701fe17?app_platform=ios&app_version=9.28.1&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBhAcAk24E4VS5Ukng9Zee1VGRM4bE9is1FoJ1cdiagQ0=&author_share=1&xhsshare=WeixinSession&shareRedId=ODZHRkg4OkA2NzUyOTgwNjY0OThKOkw5&apptime=1777833284&share_id=798f4cda06664669ae8a6e5942dcabac&wechatWid=2a38a4eb4cfb1eabf035f39c0d4bf93a&wechatOrigin=menu"
+rednote_url: "http://xhslink.com/o/5lQKCeURFxL "
 order: 2
 ---
 
@@ -44,7 +44,6 @@ order: 2
 
 <!-- English -->
 <div class="lang-en advice-hidden">
-  <p class="advice-meta">Full text: 3,038 words · Estimated reading time: 7 minutes</p>
   <p>After finalizing your choice of major and region, and given the constraints of application fees and limited energy, applicants need to select the most suitable programs from the many available schools. This number can range from a handful to several dozen, but the core goal is to find the best-fit options—which is also closely tied to the selection of potential advisors. From my own experience, choosing schools/programs requires understanding not just hard metrics like stipend and placement records, but also softer indicators like departmental culture and research orientation. The selection of potential advisors can be somewhat more exploratory, but the process of building your advisor list itself helps refine your school selection. Since the two are closely connected, this post offers holistic advice on school selection as an integrated process rather than splitting it into two separate parts.</p>
 
   <h3>Searching for Potential Advisors</h3>
