@@ -1,6 +1,6 @@
 ---
-title: "社科 PhD 选校经验分享｜学校/导师篇"
-title_en: "Social Science PhD Application Guide | School & Advisor"
+title: "Social Science PhD Application Guide for Selecting School 1 | School & Advisor"
+title_en: "社科 PhD 选校经验分享 1 ｜学校/导师篇"
 description: "确定大方向后，如何从导师出发筛选学校、评估项目质量、判断套磁必要性，以及如何看待保底校与彩票校。"
 description_en: "After fixing the big picture, how to screen schools via advisors, assess program quality, decide whether to cold email, and rethink the safety/reach school framing."
 rednote_url: "https://www.xiaohongshu.com/explore/69f6eca5000000003701fe17?app_platform=ios&app_version=9.28.1&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBhAcAk24E4VS5Ukng9Zee1VGRM4bE9is1FoJ1cdiagQ0=&author_share=1&xhsshare=WeixinSession&shareRedId=ODZHRkg4OkA2NzUyOTgwNjY0OThKOkw5&apptime=1777833284&share_id=798f4cda06664669ae8a6e5942dcabac&wechatWid=2a38a4eb4cfb1eabf035f39c0d4bf93a&wechatOrigin=menu"
@@ -9,7 +9,6 @@ order: 2
 
 <!-- Chinese -->
 <div class="lang-zh">
-  <p class="advice-meta">全文 3038 字｜阅读需 7 分钟</p>
   <p>在完成专业与地区的选择后，由于申请费用与精力分配的限制，申请者需要在众多的学校/项目中选择出最合适自己的几个。这个数字从个位数到几十个不等，但核心目的是要找到最 fit 的那一些，进而与潜在导师的选择也密不可分。从我自己的经验来看，学校/项目的选择不仅需要对 stipend/placement 此类硬性指标有所了解，也要明确氛围/方向这类的软性指标。相对来说，潜在导师的选择可以更模糊一些，但筛选导师列表本身也是帮助学校选择的过程。由于两者联系较为紧密，这条帖子将给出整体选校的建议步骤，而并不拆分成两个分开的部分。</p>
 
   <h3>潜在导师搜寻</h3>
