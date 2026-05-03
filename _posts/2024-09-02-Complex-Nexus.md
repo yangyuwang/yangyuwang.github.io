@@ -10,6 +10,10 @@ tags:
   - Latent Class Analysis
 thumbnail: /assets/female_migration_transition.png
 last_modified_at: 2024-09-02
+news: true
+journal: "Advances in Life Course Research"
+issue: "2024, Vol.62"
+publication_url: "https://www.sciencedirect.com/science/article/abs/pii/S1569490924000443"
 ---
 
 <div class="research-content" markdown="1">

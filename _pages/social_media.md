@@ -1,12 +1,11 @@
 ---
 layout: default
-title: "sms"
+title: "Posts"
 permalink: /sms/
 ---
 
 <div class="page-hero">
   <h1 class="page-hero-title">Social Media Posts</h1>
-  <p class="page-hero-sub">Writing outside the Academic</p>
 </div>
 
 <div class="advice-index-container">

@@ -27,7 +27,7 @@
         <li><a href="{{ '/' | relative_url }}" class="nav-link{% if page.url == '/' %} active{% endif %}">Home</a></li>
         <li><a href="{{ '/projects/' | relative_url }}" class="nav-link{% if page.url contains '/projects' %} active{% endif %}">Projects</a></li>
         <li><a href="{{ '/CV/' | relative_url }}" class="nav-link{% if page.url contains '/CV' %} active{% endif %}">CV</a></li>
-        <li><a href="{{ '/sms/' | relative_url }}" class="nav-link{% if page.url contains '/sms' %} active{% endif %}">Social Media Posts</a></li>
+        <li><a href="{{ '/sms/' | relative_url }}" class="nav-link{% if page.url contains '/sms' %} active{% endif %}">Posts</a></li>
         <li><a href="https://github.com/yangyuwang" class="nav-link" target="_blank" rel="noopener">
           <i class="fab fa-github" aria-hidden="true"></i>&nbsp;GitHub
         </a></li>
@@ -58,7 +58,7 @@
       <a href="{{ '/' | relative_url }}" class="footer-nav-link">Home</a>
       <a href="{{ '/projects/' | relative_url }}" class="footer-nav-link">Projects</a>
       <a href="{{ '/CV/' | relative_url }}" class="footer-nav-link">CV</a>
-      <a href="{{ '/sms/' | relative_url }}" class="footer-nav-link">Social Media Posts</a>
+      <a href="{{ '/sms/' | relative_url }}" class="footer-nav-link">Posts</a>
     </nav>
     <div class="footer-copy">&copy; {{ 'now' | date: "%Y" }} Yangyu Wang</div>
   </footer>

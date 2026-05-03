@@ -73,19 +73,70 @@ layout: default
     <p class="section-eyebrow">Latest</p>
     <h2 class="section-title">News &amp; Updates</h2>
 
-    <div class="timeline">
+    <div class="timeline" id="news-timeline">
+
+      {% comment %} Manual news items {% endcomment %}
       {% for item in site.data.news %}
-      <div class="timeline-item">
+      <div class="timeline-item" data-date="{{ item.date }}">
         <div class="timeline-dot"></div>
         <div class="timeline-card">
-          <div class="timeline-date">
-            {{ item.date | date: "%b %Y" }}
-          </div>
+          <div class="timeline-date">{{ item.date | date: "%b %Y" }}</div>
           <div class="timeline-text">{{ item.content }}</div>
         </div>
       </div>
       {% endfor %}
+
+      {% comment %} Posts (sms) marked as news {% endcomment %}
+      {% for post in site.sms %}{% if post.news %}
+      <div class="timeline-item" data-date="{{ post.date | date: '%Y-%m-%d' }}">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-date">{{ post.date | date: "%b %Y" }}</div>
+          <div class="timeline-text">
+            New post on <em>{{ post.platform }}</em>:
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </div>
+        </div>
+      </div>
+      {% endif %}{% endfor %}
+
+      {% comment %} Published projects marked as news {% endcomment %}
+      {% for post in site.posts %}{% if post.news %}
+      {% assign news_date = post.last_modified_at | default: post.date %}
+      <div class="timeline-item" data-date="{{ news_date | date: '%Y-%m-%d' }}">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-date">{{ news_date | date: "%b %Y" }}</div>
+          <div class="timeline-text">
+            {% if post.journal %}
+              New publication in <em>{{ post.journal }}</em>:
+            {% elsif post.conference %}
+              New publication at <em>{{ post.conference }}</em>{% if post.location %}, {{ post.location }}{% endif %}:
+            {% endif %}
+            {% if post.publication_url %}
+              <a href="{{ post.publication_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+            {% else %}
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {% endif %}
+            {% if post.issue %}({{ post.issue }}){% endif %}
+          </div>
+        </div>
+      </div>
+      {% endif %}{% endfor %}
+
     </div>
 
   </div>
 </section>
+
+<script>
+  (function () {
+    var tl = document.getElementById('news-timeline');
+    if (!tl) return;
+    var items = Array.prototype.slice.call(tl.querySelectorAll('.timeline-item'));
+    items.sort(function (a, b) {
+      return (b.dataset.date || '').localeCompare(a.dataset.date || '');
+    });
+    items.forEach(function (item) { tl.appendChild(item); });
+  })();
+</script>
