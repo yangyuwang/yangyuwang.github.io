@@ -317,9 +317,9 @@ compress_html:
 
 # Collections
 collections:
-  advice:
+  writing:
     output: true
-    permalink: /phd-advice/:name/
+    permalink: /writing/:name/
 
 # Defaults
 defaults:
@@ -330,6 +330,6 @@ defaults:
       layout: single
   - scope:
       path: ""
-      type: advice
+      type: writing
     values:
       layout: advice-post

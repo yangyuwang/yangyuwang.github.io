@@ -4,7 +4,7 @@ layout: default
 
 <div class="page-hero">
   <p class="page-hero-sub" style="margin-bottom:12px">
-    <a href="{{ '/phd-advice/' | relative_url }}" class="advice-back">&#8592; PhD Application Advice</a>
+    <a href="{{ '/writing/' | relative_url }}" class="advice-back">&#8592; Writing · 杂谈</a>
   </p>
   <h1 class="page-hero-title lang-en">{{ page.title }}</h1>
   <h1 class="page-hero-title lang-zh advice-hidden">{{ page.title_zh }}</h1>
@@ -23,10 +23,8 @@ layout: default
 
 <div class="advice-container">
   <article class="advice-card">
-    {% if page.meta_en or page.meta_zh %}
-    <p class="advice-meta lang-en">{{ page.meta_en }}</p>
-    <p class="advice-meta lang-zh advice-hidden">{{ page.meta_zh }}</p>
-    {% endif %}
+    <p class="advice-meta lang-en" id="meta-en"></p>
+    <p class="advice-meta lang-zh advice-hidden" id="meta-zh"></p>
     {{ content }}
   </article>
 </div>
@@ -42,4 +40,31 @@ layout: default
     document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
     document.getElementById('btn-en').classList.toggle('active', lang === 'en');
   }
+
+  function getTextWithoutMeta(el) {
+    var clone = el.cloneNode(true);
+    clone.querySelectorAll('.advice-meta').forEach(function(m) { m.remove(); });
+    return clone.textContent || '';
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var enDiv = document.querySelector('.advice-card .lang-en:not(#meta-en)');
+    var zhDiv = document.querySelector('.advice-card .lang-zh:not(#meta-zh)');
+
+    if (enDiv) {
+      var enText = getTextWithoutMeta(enDiv);
+      var enWords = enText.trim().split(/\s+/).filter(function(w) { return w.length > 0; }).length;
+      var enMins = Math.max(1, Math.round(enWords / 200));
+      var el = document.getElementById('meta-en');
+      if (el) el.textContent = enWords.toLocaleString() + ' words · ' + enMins + ' min read';
+    }
+
+    if (zhDiv) {
+      var zhText = getTextWithoutMeta(zhDiv);
+      var zhChars = (zhText.match(/[一-鿿㐀-䶿豈-﫿]/g) || []).length;
+      var zhMins = Math.max(1, Math.round(zhChars / 300));
+      var el = document.getElementById('meta-zh');
+      if (el) el.textContent = zhChars.toLocaleString() + ' 字 · 约 ' + zhMins + ' 分钟';
+    }
+  });
 </script>
