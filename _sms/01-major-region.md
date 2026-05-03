@@ -5,6 +5,9 @@ description: "专业与地区选择是选校大方向的核心。从 gatekeeping
 description_en: "Major and region are the big-picture decisions in PhD applications. This will walk through the logic from gatekeeping and methodology to personal preference."
 rednote_url: "http://xhslink.com/o/5lQKCeURFxL"
 order: 1
+news: true
+date: "2026-04-19"
+platform: "RedNote"
 ---
 
 <!-- Chinese -->

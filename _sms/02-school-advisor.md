@@ -5,6 +5,9 @@ description: "确定大方向后，如何从导师出发筛选学校、评估项
 description_en: "After fixing the big picture, how to screen schools via advisors, assess program quality, decide whether to cold email, and rethink the safety/reach school framing."
 rednote_url: "http://xhslink.com/o/5lQKCeURFxL"
 order: 2
+news: true
+date: "2026-05-02"
+platform: "RedNote"
 ---
 
 <!-- Chinese -->
