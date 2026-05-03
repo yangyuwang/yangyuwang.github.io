@@ -10,6 +10,10 @@ tags:
   - Facial Recognition
 thumbnail: /assets/GenderCoefTrend.png
 last_modified_at: 2025-06-15
+news: true
+conference: "American Sociological Association 2026 Annual Meeting"                                            
+location: "New York City, USA"
+issue: "2026"
 ---
 
 <div class="research-content" markdown="1">
