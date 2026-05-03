@@ -1,14 +1,16 @@
 ---
 title: "Social Science PhD Application Guide for Selecting School 2 | School & Advisor"
-title_en: "社科 PhD 选校经验分享 2 ｜学校/导师篇"
+title_zh: "社科 PhD 选校经验分享 2 ｜学校/导师篇"
 description: "确定大方向后，如何从导师出发筛选学校、评估项目质量、判断套磁必要性，以及如何看待保底校与彩票校。"
 description_en: "After fixing the big picture, how to screen schools via advisors, assess program quality, decide whether to cold email, and rethink the safety/reach school framing."
-rednote_url: "http://xhslink.com/o/5lQKCeURFxL "
+rednote_url: "http://xhslink.com/o/5lQKCeURFxL"
+meta_en: "~1,576 words · ~8 min read"
+meta_zh: "约 3008 字 · 约 10 分钟"
 order: 2
 ---
 
 <!-- Chinese -->
-<div class="lang-zh">
+<div class="lang-zh advice-hidden">
   <p>在完成专业与地区的选择后，由于申请费用与精力分配的限制，申请者需要在众多的学校/项目中选择出最合适自己的几个。这个数字从个位数到几十个不等，但核心目的是要找到最 fit 的那一些，进而与潜在导师的选择也密不可分。从我自己的经验来看，学校/项目的选择不仅需要对 stipend/placement 此类硬性指标有所了解，也要明确氛围/方向这类的软性指标。相对来说，潜在导师的选择可以更模糊一些，但筛选导师列表本身也是帮助学校选择的过程。由于两者联系较为紧密，这条帖子将给出整体选校的建议步骤，而并不拆分成两个分开的部分。</p>
 
   <h3>潜在导师搜寻</h3>
@@ -43,7 +45,7 @@ order: 2
 </div>
 
 <!-- English -->
-<div class="lang-en advice-hidden">
+<div class="lang-en">
   <p>After finalizing your choice of major and region, and given the constraints of application fees and limited energy, applicants need to select the most suitable programs from the many available schools. This number can range from a handful to several dozen, but the core goal is to find the best-fit options—which is also closely tied to the selection of potential advisors. From my own experience, choosing schools/programs requires understanding not just hard metrics like stipend and placement records, but also softer indicators like departmental culture and research orientation. The selection of potential advisors can be somewhat more exploratory, but the process of building your advisor list itself helps refine your school selection. Since the two are closely connected, this post offers holistic advice on school selection as an integrated process rather than splitting it into two separate parts.</p>
 
   <h3>Searching for Potential Advisors</h3>

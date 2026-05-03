@@ -1125,14 +1125,14 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   flex: 1;
   min-width: 0;
 }
-.advice-index-title-zh {
+.advice-index-title-en {
   font-family: var(--font-serif);
   font-size: 1.15rem;
   color: var(--gray-900);
   margin-bottom: 2px;
   line-height: 1.35;
 }
-.advice-index-title-en {
+.advice-index-title-zh {
   font-size: 0.82rem;
   color: var(--v-600);
   margin-bottom: 8px;

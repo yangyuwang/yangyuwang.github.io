@@ -1,14 +1,16 @@
 ---
 title: "Social Science PhD Application Guide for Selecting School 1 | Major & Region"
-title_en: "社科 PhD 选校经验分享 1 ｜ 专业/地区篇"
+title_zh: "社科 PhD 选校经验分享 1 ｜ 专业/地区篇"
 description: "专业与地区选择是选校大方向的核心。从 gatekeeping、方法论到个人偏好，系统梳理了选择逻辑。"
 description_en: "Major and region are the big-picture decisions in PhD applications. This will walk through the logic from gatekeeping and methodology to personal preference."
 rednote_url: "http://xhslink.com/o/5lQKCeURFxL"
+meta_en: "~976 words · ~5 min read"
+meta_zh: "约 1986 字 · 约 7 分钟"
 order: 1
 ---
 
 <!-- Chinese -->
-<div class="lang-zh">
+<div class="lang-zh advice-hidden">
   <p>26fall 的 decision day 已经过去，27fall 的申请已经逐步开始。面对日益严峻的申请环境，选校的重要性似乎已不必言明。这其中又包含了两个潜在的决策过程：一个是对于大方向的选择，即专业与地区；另一个则是对于细分领域的选择，即学校和导师偏好。这篇帖子主要会关于专业和地区进行经验分享，对于学校及导师更迷茫的 uu 可以等待下一篇。</p>
 
   <h3>专业</h3>
@@ -29,7 +31,7 @@ order: 1
 </div>
 
 <!-- English -->
-<div class="lang-en advice-hidden">
+<div class="lang-en">
   <p>The decision day for 26fall has passed, and 27fall applications are gradually getting underway. Faced with an increasingly competitive application landscape, the importance of school selection goes without saying. This involves two distinct decision-making processes: one concerns the big picture—your choice of major and region; the other concerns the specifics—school and advisor preferences. This post focuses on sharing experience about major and region; those who are still uncertain about schools and advisors can wait for the next post.</p>
 
   <h3>Major</h3>
