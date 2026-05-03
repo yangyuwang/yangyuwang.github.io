@@ -1,0 +1,25 @@
+---
+layout: default
+title: "PhD Advice"
+permalink: /phd-advice/
+---
+
+<div class="page-hero">
+  <h1 class="page-hero-title">PhD Advice</h1>
+  <p class="page-hero-sub">为社科 PhD 申请者 · For Social Science PhD Applicants</p>
+</div>
+
+<div class="advice-index-container">
+  {% assign sorted_advice = site.advice | sort: 'order' %}
+  {% for post in sorted_advice %}
+  <a href="{{ post.url | relative_url }}" class="advice-index-card">
+    <div class="advice-index-num">{{ post.order | prepend: '0' | slice: -2, 2 }}</div>
+    <div class="advice-index-body">
+      <h2 class="advice-index-title-zh">{{ post.title }}</h2>
+      <p class="advice-index-title-en">{{ post.title_en }}</p>
+      <p class="advice-index-desc">{{ post.description }}</p>
+    </div>
+    <div class="advice-index-arrow">&#8594;</div>
+  </a>
+  {% endfor %}
+</div>

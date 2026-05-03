@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="page-hero">
+  <p class="page-hero-sub" style="margin-bottom:12px">
+    <a href="{{ '/phd-advice/' | relative_url }}" class="advice-back">&#8592; PhD Advice</a>
+  </p>
+  <h1 class="page-hero-title lang-zh">{{ page.title }}</h1>
+  <h1 class="page-hero-title lang-en advice-hidden">{{ page.title_en }}</h1>
+</div>
+
+<div class="filter-bar advice-lang-bar">
+  <div class="filter-pills">
+    <button class="filter-pill active" id="btn-zh" onclick="setLang('zh')">中文</button>
+    <button class="filter-pill" id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+  {% if page.rednote_url %}
+  <p class="advice-source lang-zh">原帖来自我的小红书，<a href="{{ page.rednote_url }}">查看原帖</a></p>
+  <p class="advice-source lang-en advice-hidden">Originally posted on my RedNote. <a href="{{ page.rednote_url }}">View original</a></p>
+  {% endif %}
+</div>
+
+<div class="advice-container">
+  <article class="advice-card">
+    {{ content }}
+  </article>
+</div>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.lang-zh').forEach(function(el) {
+      el.classList.toggle('advice-hidden', lang !== 'zh');
+    });
+    document.querySelectorAll('.lang-en').forEach(function(el) {
+      el.classList.toggle('advice-hidden', lang !== 'en');
+    });
+    document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  }
+</script>

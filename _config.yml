@@ -315,6 +315,12 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  advice:
+    output: true
+    permalink: /phd-advice/:name/
+
 # Defaults
 defaults:
   - scope:
@@ -322,3 +328,8 @@ defaults:
       type: posts
     values:
       layout: single
+  - scope:
+      path: ""
+      type: advice
+    values:
+      layout: advice-post

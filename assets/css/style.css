@@ -987,3 +987,186 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .nav-link { font-size: 1.1rem; padding: 12px 32px; width: 100%; text-align: center; }
   .nav-toggle { display: flex; }
 }
+
+
+/* ===== PHD ADVICE PAGE ===== */
+.advice-hidden { display: none !important; }
+
+.advice-lang-bar {
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.advice-source {
+  font-size: 0.84rem;
+  color: var(--gray-500);
+  font-style: italic;
+}
+.advice-source a {
+  color: var(--v-600);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s;
+}
+.advice-source a:hover { color: var(--v-800); }
+
+.advice-container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 28px 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.advice-card {
+  background: var(--white);
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 48px 52px;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.25s ease;
+}
+.advice-card:hover { box-shadow: var(--shadow-md); }
+
+.advice-card-num {
+  font-family: var(--font-serif);
+  font-size: 7rem;
+  color: var(--v-100);
+  position: absolute;
+  top: 4px;
+  right: 28px;
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+  font-style: italic;
+}
+
+.advice-card h2 {
+  font-family: var(--font-serif);
+  font-size: 1.65rem;
+  color: var(--gray-900);
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+.advice-meta {
+  font-size: 0.82rem;
+  color: var(--gray-400);
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.advice-card h3 {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--v-800);
+  margin: 30px 0 10px;
+  padding-left: 12px;
+  border-left: 3px solid var(--v-400);
+}
+.advice-card p {
+  font-size: 0.965rem;
+  color: var(--gray-700);
+  line-height: 1.9;
+  margin-bottom: 12px;
+}
+.advice-card strong {
+  color: var(--gray-900);
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .advice-card { padding: 32px 22px; }
+  .advice-card-num { font-size: 4.5rem; right: 14px; }
+  .advice-container { padding: 32px 16px 72px; gap: 28px; }
+}
+
+/* ===== PHD ADVICE INDEX ===== */
+.advice-index-container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 28px 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.advice-index-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 28px 32px;
+  background: var(--white);
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.22s ease, border-color 0.22s ease, transform 0.18s ease;
+}
+.advice-index-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--v-300);
+  transform: translateY(-2px);
+}
+
+.advice-index-num {
+  font-family: var(--font-serif);
+  font-size: 2.4rem;
+  color: var(--v-300);
+  font-style: italic;
+  line-height: 1;
+  flex-shrink: 0;
+  width: 44px;
+  text-align: center;
+}
+
+.advice-index-body {
+  flex: 1;
+  min-width: 0;
+}
+.advice-index-title-zh {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  color: var(--gray-900);
+  margin-bottom: 2px;
+  line-height: 1.35;
+}
+.advice-index-title-en {
+  font-size: 0.82rem;
+  color: var(--v-600);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.advice-index-desc {
+  font-size: 0.855rem;
+  color: var(--gray-500);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.advice-index-arrow {
+  font-size: 1.2rem;
+  color: var(--v-400);
+  flex-shrink: 0;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+.advice-index-card:hover .advice-index-arrow {
+  transform: translateX(5px);
+  color: var(--v-600);
+}
+
+/* Back link in page-hero */
+.advice-back {
+  color: var(--v-200);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.advice-back:hover { color: var(--white); }
+
+@media (max-width: 640px) {
+  .advice-index-container { padding: 32px 16px 72px; }
+  .advice-index-card { padding: 22px 18px; gap: 16px; }
+  .advice-index-num { font-size: 1.8rem; width: 32px; }
+}
