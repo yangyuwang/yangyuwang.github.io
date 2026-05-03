@@ -3,7 +3,7 @@ title: "社科 PhD 选校经验分享｜学校/导师篇"
 title_en: "Social Science PhD Application Guide | School & Advisor"
 description: "确定大方向后，如何从导师出发筛选学校、评估项目质量、判断套磁必要性，以及如何看待保底校与彩票校。"
 description_en: "After fixing the big picture, how to screen schools via advisors, assess program quality, decide whether to cold email, and rethink the safety/reach school framing."
-rednote_url: "REDNOTE_LINK_2"
+rednote_url: "https://www.xiaohongshu.com/explore/69f6eca5000000003701fe17?app_platform=ios&app_version=9.28.1&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBhAcAk24E4VS5Ukng9Zee1VGRM4bE9is1FoJ1cdiagQ0=&author_share=1&xhsshare=WeixinSession&shareRedId=ODZHRkg4OkA2NzUyOTgwNjY0OThKOkw5&apptime=1777833284&share_id=798f4cda06664669ae8a6e5942dcabac&wechatWid=2a38a4eb4cfb1eabf035f39c0d4bf93a&wechatOrigin=menu"
 order: 2
 ---
 
