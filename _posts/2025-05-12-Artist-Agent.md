@@ -14,7 +14,6 @@ last_modified_at: 2025-11-03
 news: true
 journal: "Journal of Intelligent Society (智能社会研究)"
 issue: "2025, Vol.4(3)"
-publication_url: "https://oversea.cnki.net/kcms2/article/abstract?v=BKa2HtjuZGEsfuld7dJnbP5oe99Z8sNKAm4OHyi0ZrNYZNfj-h1AlAnBbtzhtv1NW35mDw2tfNJnYx8qGdpmjQpQrbLuW0BrO7tlmuIryo5VMgnZHcpWgVScJBy403n5hRWXYAB3onh0zTpR9rdy2FMH3yLNHd2Ybw4w6p4FJMjiU3fOKoc_0A==&uniplatform=OVERSEA&language=EN"
 ---
 
 <div class="research-content" markdown="1">
