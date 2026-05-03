@@ -87,13 +87,15 @@ layout: default
       {% endfor %}
 
       {% comment %} Posts (sms) marked as news {% endcomment %}
+      {% assign today = 'now' | date: '%Y-%m-%d' %}
       {% for post in site.sms %}{% if post.news %}
-      <div class="timeline-item" data-date="{{ post.date | date: '%Y-%m-%d' }}">
+      {% assign sms_date = post.date | date: '%Y-%m-%d' %}
+      <div class="timeline-item" data-date="{{ sms_date }}">
         <div class="timeline-dot"></div>
         <div class="timeline-card">
           <div class="timeline-date">{{ post.date | date: "%b %Y" }}</div>
           <div class="timeline-text">
-            New post on <em>{{ post.platform }}</em>:
+            {% if sms_date > today %}Will post on{% else %}New post on{% endif %} <em>{{ post.platform }}</em>:
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </div>
         </div>
@@ -103,15 +105,29 @@ layout: default
       {% comment %} Published projects marked as news {% endcomment %}
       {% for post in site.posts %}{% if post.news %}
       {% assign news_date = post.last_modified_at | default: post.date %}
-      <div class="timeline-item" data-date="{{ news_date | date: '%Y-%m-%d' }}">
+      {% assign news_date_str = news_date | date: '%Y-%m-%d' %}
+      {% assign is_future = false %}
+      {% if news_date_str > today %}{% assign is_future = true %}{% endif %}
+      <div class="timeline-item" data-date="{{ news_date_str }}">
         <div class="timeline-dot"></div>
         <div class="timeline-card">
           <div class="timeline-date">{{ news_date | date: "%b %Y" }}</div>
           <div class="timeline-text">
             {% if post.journal %}
-              New publication in <em>{{ post.journal }}</em>:
+              {% if is_future %}Will publish in{% else %}New publication in{% endif %} <em>{{ post.journal }}</em>:
             {% elsif post.conference %}
-              New {{ post.conference_type | default: "publication" }} at <em>{{ post.conference }}</em>{% if post.location %}, {{ post.location }}{% endif %}:
+              {% assign ctype = post.conference_type | default: "publication" %}
+              {% if is_future %}
+                {% case ctype %}
+                  {% when "presentation" %}Will present at
+                  {% when "poster" %}Will present a poster at
+                  {% when "publication" %}Will publish at
+                  {% else %}Will {{ ctype }} at
+                {% endcase %}
+              {% else %}
+                New {{ ctype }} at
+              {% endif %}
+              <em>{{ post.conference }}</em>{% if post.location %}, {{ post.location }}{% endif %}:
             {% endif %}
             {% if post.publication_url %}
               <a href="{{ post.publication_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
