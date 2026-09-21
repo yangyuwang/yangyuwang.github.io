@@ -206,11 +206,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .hero {
   min-height: calc(100vh - var(--nav-height));
   display: flex;
-  align-items: stretch;
+  align-items: center;
   background:
     radial-gradient(ellipse 60% 70% at 80% 40%, color-mix(in srgb, var(--v-300) 28%, transparent) 0%, transparent 65%),
     radial-gradient(ellipse 40% 50% at 20% 80%, color-mix(in srgb, var(--v-100) 20%, transparent) 0%, transparent 60%),
     var(--white);
+  padding: 40px 28px 80px;
   position: relative;
 }
 .hero::before {
@@ -226,16 +227,13 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 
 .hero-container {
-  flex: 1 1 auto;
-  min-width: 0;
-  display: flex;
-  align-items: center;
-  padding: 40px 48px 80px 40px;
-  position: relative;
-}
-.hero-container > .hero-text {
-  max-width: 620px;
+  max-width: 1140px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 80px;
+  align-items: center;
+  width: 100%;
 }
 
 .hero-greeting {
@@ -365,17 +363,37 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 /* Hero photo */
 .hero-photo-col {
-  flex: 0 0 44%;
-  max-width: 640px;
-  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
   animation: fadeIn 0.7s ease forwards 0.2s;
 }
-.hero-photo-col img {
+.hero-photo-frame {
+  width: 280px;
+  aspect-ratio: 2559 / 2996;
+  border-radius: 22px;
+  background: linear-gradient(135deg, var(--v-300), var(--v-700), var(--v-900));
+  padding: 5px;
+  box-shadow: var(--shadow-violet);
+  position: relative;
+}
+.hero-photo-frame::before {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 26px;
+  background: linear-gradient(135deg, var(--v-200), transparent, var(--v-300));
+  z-index: -1;
+  opacity: 0.5;
+}
+.hero-photo-frame img {
   display: block;
   width: 100%;
   height: 100%;
+  border-radius: 18px;
   object-fit: cover;
+  border: 4px solid var(--white);
 }
 
 
@@ -934,13 +952,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 960px) {
-  .hero { flex-direction: column; }
   .hero-container {
-    padding: 40px 24px 32px;
+    grid-template-columns: 1fr;
+    gap: 48px;
     text-align: center;
   }
-  .hero-container > .hero-text { margin: 0 auto; }
-  .hero-photo-col { order: -1; flex: none; width: 100%; max-width: 100%; height: 380px; }
+  .hero-photo-col { order: -1; }
   .hero-bio { max-width: 100%; }
   .interests { justify-content: center; }
   .cta-lines { align-items: stretch; }
@@ -949,8 +966,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 
 @media (max-width: 640px) {
-  .hero-container { padding: 32px 20px 28px; }
-  .hero-photo-col { height: 300px; }
+  .hero { padding: 48px 20px; }
+  .hero-photo-frame { width: 200px; }
   .projects-grid { grid-template-columns: 1fr; }
   .page-hero { padding: 56px 20px 44px; }
   .post-wrap { padding: 20px 20px 72px; }
