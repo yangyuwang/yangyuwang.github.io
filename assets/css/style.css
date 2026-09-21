@@ -369,30 +369,30 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   opacity: 0;
   animation: fadeIn 0.7s ease forwards 0.2s;
 }
-.hero-photo-ring {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+.hero-photo-frame {
+  width: 280px;
+  aspect-ratio: 2559 / 2996;
+  border-radius: 22px;
   background: linear-gradient(135deg, var(--v-300), var(--v-700), var(--v-900));
   padding: 5px;
   box-shadow: var(--shadow-violet);
   position: relative;
 }
-.hero-photo-ring::before {
+.hero-photo-frame::before {
   content: '';
   position: absolute;
   inset: -8px;
-  border-radius: 50%;
+  border-radius: 26px;
   background: linear-gradient(135deg, var(--v-200), transparent, var(--v-300));
   z-index: -1;
   opacity: 0.5;
 }
-.hero-photo-ring img {
+.hero-photo-frame img {
+  display: block;
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: 18px;
   object-fit: cover;
-  object-position: center top;
   border: 4px solid var(--white);
 }
 
@@ -967,7 +967,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 @media (max-width: 640px) {
   .hero { padding: 48px 20px; }
-  .hero-photo-ring { width: 220px; height: 220px; }
+  .hero-photo-frame { width: 200px; }
   .projects-grid { grid-template-columns: 1fr; }
   .page-hero { padding: 56px 20px 44px; }
   .post-wrap { padding: 20px 20px 72px; }
